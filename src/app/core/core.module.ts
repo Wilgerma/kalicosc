@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import * as ShellComponent from './components';
 import { CoreRoutingModule } from './core-routing.module';
+import {  NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -9,7 +9,8 @@ import { CoreRoutingModule } from './core-routing.module';
   imports: [
     CommonModule,
     CoreRoutingModule,
+    NgbModule
   ],
-  declarations: [...ShellComponent.components]
+  declarations: []
 })
 export class CoreModule { }

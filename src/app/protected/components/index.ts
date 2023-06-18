@@ -2,8 +2,6 @@ import { BlogDashboardComponent } from "./blog-dashboard/blog-dashboard.componen
 import { ProductsDashboardComponent } from "./products-dashboard/products-dashboard.component";
 
 
-
-
 export const components = [
   BlogDashboardComponent,
   ProductsDashboardComponent
